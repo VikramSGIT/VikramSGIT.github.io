@@ -25,7 +25,7 @@ function text()
 function style_text()
 {
     setInterval(function() {
-            document.getElementById('textstyle').innerHTML = "<b class=\"font-monospace fs-5\" id=\"textstyle\">I'm a " + text() + "</b>|"
+            document.getElementById('textstyle').innerHTML = "<b style=\"font-size:3vw;\" class=\"font-monospace\" id=\"textstyle\">I'm a " + text() + "</b>|"
     }, 200);
 
     document.getElementById("Git").addEventListener('click', function()
